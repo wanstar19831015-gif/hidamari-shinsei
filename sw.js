@@ -1,6 +1,6 @@
 // 申請書作成ツール：画面をスマホに保存し、電波が弱いときも開けるようにする
 // まずネットから最新を取りに行き、だめなときだけ保存しておいたものを使う
-const CACHE = 'shinsei-v16';
+const CACHE = 'shinsei-v17';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
